@@ -71,6 +71,7 @@ section#joaninha {
     height: 600px;
     background-size: 100% 100%;
     background-attachment: fixed;
+    box-shadow: inset, 6px ;
 }
 
 article#flor {
@@ -89,6 +90,7 @@ section#livro {
     height: 600px;
     background-size: 100% 100%;
     background-attachment: fixed;
+    box-shadow: inset, 6px ;
 }
 
 article#letras{
