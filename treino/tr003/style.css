@@ -17,4 +17,9 @@ h1 {
 
 main {
     display: inline-block;
+    position: absolute;
+}
+
+main > img {
+    size: 25vw;
 }
