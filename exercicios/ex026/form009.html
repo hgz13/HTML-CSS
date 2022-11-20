@@ -9,7 +9,7 @@
 <body>
     <p>
         <label for="num">Numero</label>
-        <input type="range" name="num" id="num" min="0" max="10">
+        <input type="range" name="num" id="num" min="0" max="10" oninput="ival.innerHTML = Number(num.value)">
         <output id="ival">5</output>
     </p>
     <p>
