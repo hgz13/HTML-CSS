@@ -11,19 +11,27 @@
 }
 
 body, html {
-    width: 100vw;
     height: 100vh;
 }
 
 body {
     background: black url(../imagens/back-phone.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 main {
     background-color: rgba(255, 255, 255, 0.729);
-    width: 90vw;
+    width: 400px;
     margin: auto;
     border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.826);
+    font-size: 1em;
 }
 
 img {
